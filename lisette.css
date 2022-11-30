@@ -1,19 +1,42 @@
 body {
     background-color: #45050D;
+    margin: 0;
+}
+
+header {
+
+    text-align: center;
 }
 
 h1 {
     color: #E17808;
+    position: absolute;
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #000018;
 }
 
 p {
     color:antiquewhite
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 99%;
-    height: auto
-
+footer {
+    background-color: #000018 ;
+    overflow: hidden;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
