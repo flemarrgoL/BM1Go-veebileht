@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(243, 235, 235);
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+header {
+    perspective: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.foreground1,
+.foreground2 {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+.foreground2 {
+    transform: translateZ(-10px) scale(2);
+}
+.foreground1 {
+    transform: translateZ(-5px) scale(1.5);
+}
