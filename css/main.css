@@ -1,6 +1,8 @@
 body {
     background-color: #45050D;
     margin: 0;
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 12 ;
 }
 
 header {
@@ -15,6 +17,7 @@ h1 {
     color: #E17808;
     text-align: center;
     font-size: 50px;
+    font-family: 'Zen Dots', sans-serif;
     background-color: #000018;
 }
 
@@ -26,12 +29,20 @@ img {
     
 }
 
-.navigation {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    background-color: #000018;
+p {
+    color:antiquewhite;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #09093b;
+    /* Panin footeri tausta korra siniseks, et aru saada kus see asub,
+    püüan selle veebilehe alumisse ossa kinnitada. */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
 
 a {
@@ -43,21 +54,4 @@ a {
 
 a:hover {
     background-color: aquamarine;
-}
-
-.Page {
-    display: grid;
-    grid-template-rows: 1000px;
-}
-p {
-    color:antiquewhite;
-    text-align: center;
-}
-
-footer {
-    background-color: #000018 ;
-    
-    display: flex;
-    gap: 50px;
-    justify-content: center;
 }
