@@ -3,21 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>BM1Go</title>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="resources\title_icon.ico">
+    <link rel="shortcut icon" href="resources\new icon.png">
     <link rel="stylesheet" href="css\main.css">
     <link rel="stylesheet" href="css\avaleht.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zen Dots">
+
+    <script>
+        // Veebilehte värskendades näed uut ja vahvat tsitaati.
+        writeRandomQuote = function () {
+            var quotes = new Array();
+            quotes[0] = "Ükskord me võidame niikuinii.";
+            quotes[1] = "Rada, mis on mõeldud sinule, ei pruugi olla nähtaval, aga see ei tähenda, et seda pole olemas.";
+            quotes[2] = "Elu on nagu jalgratas — selleks, et tasakaalu hoida, tuleb edasi liikuda.";
+            quotes[3] = "Hiiglase õlgadel seisev kääbus võib näha hiiglasest kaugemale.";
+            var rand = Math.floor(Math.random()*quotes.length);
+            document.write(quotes[rand]);
+        }
+        </script>
 </head>
 
-<h1>Maailmalõpu üleelamise kiirjuhend</h1>
-
 <body>
-    <div class="navigation">
-        <a href="katariinavaheleht.html">Katariina vaheleht</a>
-        <a href="lisette.html">Lisette vaheleht</a>
-        <!--<a href ="Rasmuse vaheleht insert here"> Pealkiri </a> -->
+    <div class="mustus"><text>hidden</text></div>
+    <h1>Maailmalõpu üleelamise kiirjuhend</h1>
+    <p class="taustavarviga"><script>writeRandomQuote();</script>
+    </p>
+    <div class="navigationBar">
+        <a class="zoom" href="katariinavaheleht.html"><img src="resources/linkpiltideasemel.jpg" ></a>
+        <a class="zoom" href="lisette.html"><img src="resources/linkpiltideasemel.jpg" ></a> 
+        <a class="zoom" href ="Rasmuse vaheleht insert here"><img src="resources/linkpiltideasemel.jpg" ></a> 
+    </div> 
+    
+    <footer>
+    <p>
+        <a href="https://github.com/flemarrgoL/BM1Go-veebileht">[Github]</a>
+        <!-- Javascripti abil saad kergesti lehekülge printida. -->
+        <a href="javascript:window.print();">[Prindi lehekülg]</a>
+    <p>
+    <p>Made by Tartu University CS students</p>
 
-    </div>
+    </footer>
 </body>
 </html>
