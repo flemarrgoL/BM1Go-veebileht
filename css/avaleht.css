@@ -1,0 +1,49 @@
+h1 {
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: #f5b673;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Zen Dots', sans-serif;
+    background-color: #000018;    
+}
+
+/* .avalehetaust {
+    background-image: url("resources/Esileht3.png");
+} */
+
+img {
+    border-radius: 20%;
+    max-width: 400px;
+    }
+
+
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    background-image: url("resources/Esileht3.png");
+}
+ 
+.zoom {
+    transition: transform .3s; /* Animation */
+    margin: 0 auto;
+    
+}
+
+.zoom:hover {
+  transform: scale(1.08); /* (108% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: transparent;
+}
+
+.mustus {
+    position: relative;
+    top: 0;
+    height: 10vh;
+    color:#000018;
+    background-color: #000018; 
+    align-items: center; 
+}
