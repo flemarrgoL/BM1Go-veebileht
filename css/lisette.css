@@ -9,8 +9,14 @@ img {
 .text {
     color: antiquewhite;
     text-align: left;
+    margin: 10px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
 .parent {
     text-align: right;
 }
@@ -18,7 +24,7 @@ img {
 .textbox {
     text-align: left;
     background-color: rgba(95, 131, 119, 0.3);
-    position: relative;
+    position: static;
     padding: 4px 10px 4px 10px;
     display: inline-block;
     border-radius: 15px;
