@@ -1,5 +1,7 @@
 body {
     background-color: #45050D;
+    /* background-image: url(resources\esileht3.png); */
+    /* background-size: cover; */
     margin: 0;
     font-family: 'Zen Dots', sans-serif;
     font-size: 12 ;
@@ -19,6 +21,7 @@ h1 {
     font-size: 50px;
     font-family: 'Zen Dots', sans-serif;
     background-color: #000018;
+    z-index: 1;
 }
 
 p {
