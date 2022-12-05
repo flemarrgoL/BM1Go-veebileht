@@ -1,12 +1,3 @@
-/*.navigation {
-    padding: 20px;
-    height: 30px; 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    background-color: #000018;
-}*/
-
 img {
     object-fit: cover;
     display: block;
@@ -15,7 +6,25 @@ img {
     
 }
 
-/* .Page {
-    display: grid;
-    grid-template-rows: 1000px;
-} */
+.text {
+    color: antiquewhite;
+    text-align: left;
+}
+
+.parent {
+    text-align: right;
+}
+
+.textbox {
+    text-align: left;
+    background-color: rgba(95, 131, 119, 0.3);
+    position: relative;
+    padding: 4px 10px 4px 10px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.pealkiri {
+    font-size: large;
+    text-decoration: underline;
+}
