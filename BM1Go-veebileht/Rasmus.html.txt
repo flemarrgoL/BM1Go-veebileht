@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS Rasmus.css">
+<title>Lehe päis</title>
+</head>
+<body>
+
+<h1>Esimese taseme pealkiri</h1>
+<p>Tekstilõik</p>
+
+</body>
+</html>
+ 
