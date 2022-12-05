@@ -7,6 +7,30 @@
     background-color: #000018;
 }*/
 
+.raam {
+    text-align: left;
+    background-color: rgba(95, 131, 119, 0.3);
+    position: static;
+    padding: 4px 10px 4px 10px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 1em;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+  .column {
+    padding: 16px;
+    margin: 10px;
+    color:antiquewhite;
+  
+    
+  }
+
 img {
     object-fit: cover;
     display: block;
